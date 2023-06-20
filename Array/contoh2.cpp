@@ -2,18 +2,25 @@
 
 using namespace std;
 
-int umur_kuncay[5] = {18,19,20,21,22}, n, hasil = 0;
+int umur_kuncay[5] = {18,19,20,21,22};
+int n;
+int hasil = 0;
 
 int main ()
 { 
-
+	system("clear");
 	cout << "masukan n: ";
 	cin >> n;
-	for(n=0; n < 5; n++)
-	{
-	  hasil+= umur_kuncay[n];
-
+	
+	for(int i = 0; i < 5; i++) {
+	
+		if(umur_kuncay[i] != n) {
+		
+		
+			hasil = abs( n - umur_kuncay[i]);
+		}
 	}
+
 	cout << hasil << "\n";
 	return 0;
 

@@ -2,51 +2,68 @@
 #include <cstdlib>
 using namespace std;
 
-struct node {
-	char data;
-	struct node* next;
+struct Node {
+    char data;
+    Node* next;
 };
 
-struct node* pala = NULL;
-struct node* body = NULL;
+class LinkedList {
+private:
+    Node* head;
 
-void Create() {
-	pala = body = NULL;
-}
+public:
+    LinkedList() {
+        head = NULL;
+    }
 
-void insertdepan(char data) {
-	struct node* p = new struct node;
-	p->data = data;
-	p->next = NULL;
+    void insertAtBeginning(char value) {
+        Node* newNode = new Node;
+        newNode->data = value;
+        newNode->next = head;
+        head = newNode;
+    }
 
-	if (pala == NULL) {
-		pala = body = p;
-	} else {
-		p->next = pala;
-		pala = p;
-	}
-}
+    void insertAtEnd(char value) {
+        Node* newNode = new Node;
+        newNode->data = value;
+        newNode->next = NULL;
 
-char Find_First() {
-	if (pala == NULL) {
-		cout << "Linked List kosong!" << endl;
-		return '\0';
-	}
+        if (head == NULL) {
+            head = newNode;
+        } else {
+            Node* current = head;
+            while (current->next != NULL) {
+                current = current->next;
+            }
+            current->next = newNode;
+        }
+    }
 
-	return pala->data;
-}
+    void display() {
+        Node* current = head;
+        while (current != NULL) {
+            cout << current->data << " ";
+            current = current->next;
+        }
+        cout << endl;
+    }
+};
 
 int main() {
-	char c;
-	Create();
+    LinkedList myList;
 
-	do {
-		cout << "Masukan data A - Z: ";
-		cin >> c;
-		insertdepan(c);
-	} while (c != '.');
+    char input;
+    cout << "Masukkan karakter (A-Z) atau '.' untuk berhenti: ";
+    cin >> input;
 
-	cout << "Elemen pertama: " << Find_First() << endl;
+    while (input != '.') {
+        myList.insertAtEnd(input);
+        cout << "Masukkan karakter (A-Z) atau '.' untuk berhenti: ";
+        cin >> input;
+    }
 
-	return 0;
+    cout << "Linked List: ";
+    myList.display();
+
+    return 0;
 }

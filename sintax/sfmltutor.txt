@@ -1,0 +1,14 @@
+
+
+	how use sfml in vscode
+
+ - ctrl+shift+p > pilih yg C++ Creat new Project
+ 	pilih [g++/GDB] Linux
+
+- buat program
+- lalu ke file (Makefile) > di baris// LIBARIES := 
+	tambahkan -lsfml-graphics -lsfml-window -lsfml-system
+
+- di terminal ketikan perintah make
+- lalu bin/main
+ 

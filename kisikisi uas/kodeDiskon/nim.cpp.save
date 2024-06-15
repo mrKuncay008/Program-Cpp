@@ -1,0 +1,31 @@
+/*
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int nim_anda = 125;
+
+	for (int i = 1; i <= 9; i++) {
+		nim_anda = nim_anda / 2;
+		cout << i << " nim_anda " << nim_anda << endl;
+	}
+
+	return 0;
+}
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+		int nim_anda = 125;
+			for (int i = 1; i <= 9; i++) {
+						cout << i << " nim_anda " << nim_anda << endl;
+								nim_anda = nim_anda / 2;
+									}
+				
+				return 0;
+}

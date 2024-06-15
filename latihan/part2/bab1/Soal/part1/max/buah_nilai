@@ -1,0 +1,14 @@
+
+Soal 5
+
+Tulislah program untuk: 
+
+Membaca tiga buah nilai interger dari keyboard
+mencetak nilai terbesar dari tiga buah nilai yang dimasukan
+tersebut, Format tampilan yang di inginkan adalah 
+- masukan nilai A : ----
+- masukan nilai B : ----
+- masukan nilai c : ----
+- 	nilai terbesar: ---
+	niali tengah : ----
+- 	nilai terkecil: ---

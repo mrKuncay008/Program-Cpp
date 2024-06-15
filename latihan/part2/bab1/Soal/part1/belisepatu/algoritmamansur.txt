@@ -1,0 +1,21 @@
+
+kasus mansur ingin membeli sepatu vans
+
+> sepatu vans 50000
+> sepatu convers 30000
+> input uang mansur 
+
+ALGORITMA
+
+start
+uang mansur, vans, convers
+ vans 50000
+ convers 30000
+input uang 
+jika uang mansur lebih besar dari vans
+	maka bawa pulang vans
+jika lainnya uang mansur lebih besar dan sama dengan convers
+	maka bawa pulang convers
+jika tidak pulang
+end	
+

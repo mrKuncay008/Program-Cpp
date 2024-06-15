@@ -1,0 +1,80 @@
+
+
+	Pertidak samaan
+
+ |2X - 1 | < 8
+ 
+=  -8 < 2x -1 < 8
+=  -8 + 1 < 2x -1 + 1 < 8 + 1
+=  -7 < 2x < 9
+=  -5 < x < 7 = 
+HP = (-5,2)
+
+
+  Sifat nila mutlak
+
+ |x| = akarX(kuadrat2) // contoh akar(9) = akar3(kuadrat2) = |3| karena 3 x 3
+
+ |x| < a, a >= 0 sehingga -a < x < a
+
+ |x| > a, a >= 0 sehingga x > a atau x < - a
+
+ |x| <= |y| sehingga x(kuadrat2) <= y(kuadrat2) 
+
+ |a + b| <= |a| + |b|
+
+ |x| = |a|, a >= 0 senhingga x = <+ a  
+
+ |-a| = a
+
+ |ab| = |a|.|b|
+
+
+
+
+
+abs(x)		Mengembalikan nilai absolut dari x
+
+acos(x)		Mengembalikan arccosine dari x, dalam radian
+
+asin(x)		Menampilkan busur x, dalam radian
+
+atan(x)		Mengembalikan arktangen x, dalam radian
+
+cbrt(x)		Mengembalikan akar pangkat tiga dari x
+
+ceil(x)		Mengembalikan nilai x yang dibulatkan ke atas ke bilangan bulat terdekat
+
+cos(x)		Mengembalikan kosinus x, dalam radian
+
+cosh(x)		Mengembalikan kosinus hiperbolik x, dalam radian
+
+exp(x)		Mengembalikan nilai dari Ex
+
+expm1(x)	Mengembalikan ex -1
+
+fabs(x)		Mengembalikan nilai absolut dari x mengambang
+
+fdim(x, y)	Mengembalikan selisih positif antara x dan y
+
+floor(x)	Mengembalikan nilai x yang dibulatkan ke bawah ke bilangan bulat terdekatnya
+
+hypot(x, y)	Mengembalikan akar persegi (x2 + y2) tanpa luapan atau luapan perantara
+
+fma(x, y, z)	Mengembalikan x * y + z tanpa kehilangan presisi
+
+fmax(x, y)	Mengembalikan nilai tertinggi dari x dan y mengambang
+
+fmin(x, y)	Mengembalikan nilai terendah dari x dan y mengambang
+
+fmod(x, y)	Mengembalikan sisa titik mengambang dari x / y
+
+pow(x, y)	Mengembalikan nilai x ke pangkat y
+
+sin(x)	 	Mengembalikan sinus dari x (x dalam radian)
+
+sinh(x)		Mengembalikan sinus hiperbolik dari nilai ganda
+
+tan(x)	 	Menampilkan garis singgung sudut
+
+tanh(x)	 	Mengembalikan tangen hiperbolik dari nilai ganda

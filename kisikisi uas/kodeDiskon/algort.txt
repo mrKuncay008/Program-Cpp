@@ -1,0 +1,10 @@
+bagaimana algoritma dan flowchart ini:
+ Sebuah perusahaan menjual komponen komputer
+
+ jika kode komponen = 1
+ maka NamaKomponen = Harddisk, dengan kode diskon = 'S',
+ maka harganya 500000.
+ Jika kode diskonnya bukan 'S'
+ maka harganya 400000
+
+

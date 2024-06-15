@@ -1,0 +1,34 @@
+
+
+		C++ sintax
+
+- #include // bagian deklarasi
+	'.h' ( headerfile dari C atau C++)
+	.cpp artinya source code dari C++;
+	.hpp artinya header file dari C++;
+	.cc dan .c artinya header file dari C.	simbol < > unutk mencari libry di sistem
+	simbol ".h" atau tanda kutip untuk mencari file di folder
+- using namespace std; // deklarasi agar printah output layar tidak mengguanakan std:
+- cout // menampilkan teks ke layar
+- cerr // menampilkan error
+- clog // menampilkan log
+- %s // menampilkan nilai string
+- %d // menampilkan nilai angka atau desimal
+- %c // menampilkan karakter
+- %f // bilangan pecahan
+- %o // bilangan oktal
+- %x // bilangan heksa desimal
+- \t // membuat tabs
+- cin // mengambil input
+	cin << variable;
+- Peraturan tata letak fungsi int dan main
+	int main() {
+		// code //
+	}
+	void main(){
+		
+		//code
+	}
+note: void() memiliki fungsi yg tidak tahu jumlah nya, 
+	sedangkan main() mampu menghitung banyak argumen dan meyimpan 
+	0; mengembalikan program ke range int

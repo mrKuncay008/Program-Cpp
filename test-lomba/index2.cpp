@@ -4,10 +4,10 @@ using namespace std;
 
 int main() {
     cout << "Masukan Input: " << endl;
-    
+
     int N;
     cin >> N;
-    
+
     string A, B;
     cin >> B >> A;
 
@@ -25,4 +25,3 @@ int main() {
 
     return 0;
 }
-

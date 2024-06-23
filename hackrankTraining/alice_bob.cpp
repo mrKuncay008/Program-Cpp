@@ -14,6 +14,9 @@ vector<string> split(const string &);
  * The function accepts following parameters:
  *  1. INTEGER_ARRAY a
  *  2. INTEGER_ARRAY b
+    Sample Input:
+     5 6 7
+     3 6 10
  */
 
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
